@@ -1,0 +1,33 @@
+
+/*размер картинки на главной странице*/
+img{
+    width: 140px;
+    height: 140px;
+}
+
+/*цвета элементов главной страницы*/
+body{
+    background-color: #FBEAC9 ;
+}
+
+.navbar-color, .btn{
+    background-color: #A1693B;
+}
+
+.jumbotron {
+    background-color: #f7e1b5;
+}
+
+.text-color-active{
+    background-color: #A1693B;
+    color: white;
+}
+
+.text-color-dropdown, .btn, .text-color{
+    color: #FBEFD6;
+}
+.text-color-dropdown:hover, .btn:hover{
+    color: black;
+}
+
+
