@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Article title</title>
+    <link rel="stylesheet" href="../libraries/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../stylesheets/article.css">
+    <link rel="stylesheet" href="../stylesheets/main.css">
+</head>
+<body>
+<div class="navbar-wrapper">
+    <div class="navbar navbar-color navbar-inverse navbar-default navbar-static-top">
+        <div class="container ">
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="../views/index.html"><span class="text-color-active">Главная страница</span></a></li>
+
+                    <li class="dropdown">
+                        <a id="dropdown" class="dropdown-toggle" data-toggle="dropdown"><span class="text-color">О разработчиках <b
+                                class="caret"></b></span></a>
+                        <ul id="list" class="dropdown-menu navbar-color">
+                            <!--поменять ссылки-->
+                            <li><a href="#"><span class="text-color-dropdown">Атаманчук Дмитрий</span></a></li>
+                            <li><a href="#"><span class="text-color-dropdown">Вабищевич Галина</span></a></li>
+                            <li><a href="#"><span class="text-color-dropdown">Горбачик Никита</span></a></li>
+                            <li><a href="#"><span class="text-color-dropdown">Донцова Александра</span></a></li>
+                            <li><a href="#"><span class="text-color-dropdown">Зинкевич Елена</span></a></li>
+                            <!--до сюда-->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="blog-header">
+        <h1 class="blog-title">Сайт о животных, самый лучший в мире сайт</h1>
+        <p class="lead blog-description">Прекрасный пример текста, который тут отлично бы смотрелся</p>
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+            <div class="blog-post">
+                <h2 class="blog-post-title">Название поста</h2>
+                <p class="blog-post-meta">Январь 1, 2017 автор <a href="#">Выхухоль</a></p>
+
+                <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+                <hr>
+                <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+                <blockquote>
+                    <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </blockquote>
+                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                <h2>Новый заголовок</h2>
+                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                <h3>Под-заголовок</h3>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <pre><code>Интересный факт, сноска, бла-бла-бла</code></pre>
+                <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+                <h3>Под-заголовок</h3>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <ul>
+                    <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                    <li>Donec id elit non mi porta gravida at eget metus.</li>
+                    <li>Nulla vitae elit libero, a pharetra augue.</li>
+                </ul>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+                <ol>
+                    <li>Vestibulum id ligula porta felis euismod semper.</li>
+                    <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+                    <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+                </ol>
+                <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+            </div><!-- /.blog-post -->
+
+            <ul class="pager">
+                <li><a href="#">назад</a></li>
+                <li><a href="#">вперед</a></li>
+            </ul>
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <h4>Краткое содержание (или интересный факт)</h4>
+                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            </div>
+            <div class="sidebar-module">
+                <h4>Другие наши статьи</h4>
+                <ol class="list-unstyled">
+                    <li><a href="#">Дико инетерсная статья</a></li>
+                    <li><a href="#">И еще одна</a></li>
+                    <li><a href="#">Уже целых три</a></li>
+                    <li><a href="#">А может и четыре</a></li>
+                    <li><a href="#">............</a></li>
+                </ol>
+            </div>
+            <hr>
+            <div class="sidebar-module">
+                <h4>Разработчики</h4>
+                <ol class="list-unstyled">
+                    <li><a href="#">И вот такой</a></li>
+                    <li><a href="#">И такой еще</a></li>
+                    <li><a href="#">И вот этот</a></li>
+                    <li><a href="#">А еще вот этот</a></li>
+                    <li><a href="#">Ну и еще один</a></li>
+                </ol>
+            </div>
+        </div><!-- /.blog-sidebar -->
+
+    </div><!-- /.row -->
+
+</div><!-- /.container -->
+
+<div class="blog-footer">
+    <p>Сайт студентов группы 473601</p>
+    <p>
+        <a href="#">Наверх</a>
+    </p>
+</div>
+
+    <script src="../libraries/jquery-3.2.0.min.js"></script>
+    <script src="../libraries/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="../js/article.js"></script>
+</body>
+</html>
